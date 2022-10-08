@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    border:2px solid red;
+}
+
+.color{
+    color:orange;
+}
+
+/* ? navbar  */
+#navbar {
+    background-color: black;
+    color: #fff;
+}
+.navbar_content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 33%;
+}
+.nav__menu li {
+    list-style: none;
+    transform: 3s;
+    padding: 30px;
+}
